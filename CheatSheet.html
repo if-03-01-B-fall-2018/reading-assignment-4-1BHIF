@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<title>CheatSheet</title>
+  </head>
+  <style>
+	li.normal{
+		font-style: normal;
+	}
+	li.italic{
+		font-style: italic;
+	}
+	li.left{
+		text-align:left;
+	}
+	li.center{
+		text-align:center;
+	}
+	li.right{
+		text-align:right;
+	}
+	li.overline{
+		text-decoration: overline;
+	}
+	li.linethrough {
+		text-decoration: line-through;
+	}
+	li.underline{
+		text-decoration: underline;
+	}
+	li.uppercase{
+		text-transform: uppercase;
+	}
+	li.lowercaser{
+		text-transform: lowercase;
+	}
+	li.capitalize{
+		text-transform: capitalize;
+	}
+	li.bold{
+		font-weight: bold;
+	}
+	li.lighter{
+		font-weight: lighter;
+	}
+	li.weight{
+		font-weight:900;
+	}
+  </style>
+  <body alink="orange">
+    <p>
+      <h1>CheatSheet</h1>
+    </p>
+	
+	<p>
+		<p>
+			<dl>
+
+				<p>
+					<h2 style="border:2px solid salmon">History</h2>
+					<a href=https://en.wikipedia.org/wiki/World_Wide_Web#History> https://en.wikipedia.org/wiki/World_Wide_Web#History</a>
+				</p>
+				<dt><strong>What are the most essential technologies that made the World Wide Web such a success?</strong><br></dt>
+				<dd>-A system of globally unique identifiers for resources on the Web and elsewhere, the universal document identifier (UDI), later known as uniform resource locator (URL) and uniform resource identifier (URI);<br></dd>	
+				<dd>-The publishing language Hypertext Markup Language (HTML);<br></dd>
+				<dd>-The Hypertext Transfer Protocol (HTTP).[26]<br><br></dd>
+				<dt><strong>How are resources (html pages, images, etc) addressed in the web?</strong><br></dt>
+				<dd> With an unique URL<br><br></dd>
+				<dt><strong>What are the general components of a url?</strong><br></dt>
+				<dd>(https)(scheme)://(en.wikipedia.org)(url)/(wiki)(server)/(Web_server#Overview)(page)<br><br></dd>
+			</dl>
+		</p>
+		<p>
+			<p>
+				<h2 style= "border:2px solid slateblue">Web Server</h2>
+				<a href=https://en.wikipedia.org/wiki/Web_server#Overview> https://en.wikipedia.org/wiki/Web_server#Overview </a>
+			</p>
+			
+			<dt><strong>What is a web server?</strong><br></dt>
+				<dd>A web server is server software, or hardware dedicated to running said software, that can satisfy World Wide Web client requests.<br><br></dd>
+			<dt><strong>What does a web server do?</strong><br></dt>
+				<dd>A web server stores, processes and delivers web pages to the clients.<br><br></dd>
+			<dt><strong>How can content be stored on a web server?</strong><br></dt>
+				<dd>With an full HTTP-Implimantation a server can eithere receive or serve contents of the client, this data is being storaged on a secondary storage or external.<br><br></dd>
+			<dt><strong>How is content in webpages described?</strong><br></dt>
+				<dd>If the client asks for a certain webpage it is delivered in HTTP from the server. The most webpages are written in html.</dd>
+		</p>
+		<p>
+			<p>
+				<h2 style = "border:2px solid tomato">WebClient</h2>
+				<a href=https://en.wikipedia.org/wiki/Web_browser> https://en.wikipedia.org/wiki/Web_browser </a>
+			</p>
+			
+			<dt><strong>What is a web client?</strong><br></dt>
+				<dd>A web browser is a software application for accessing information on the World Wide Web.<br><br></dd>
+			<dt><strong>What does a web client??</strong><br></dt>
+				<dd>A web client connects to the server and asks for a webpage so it can display it.<br></dd>
+			<dt><strong>Web Client and Web Browser is the same</strong><bt></dd>
+		</p>
+	
+		<p>
+			<p>
+				<h2 style = "border:2px solid mediumseagreen">Hello World</h2>
+			</p>
+			
+			<dt><strong>DOCTYPE</strong><br></dt>
+				<dd>The DOCTYPE is needed, because the browser has to know which type of html is being used before he can render it <br></dd>
+			<dt><strong>About the body element</strong><br></dt>
+				<dd>The body element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.<br></dd>
+			<dt><strong>About the em element</strong><br></dt>
+				<dd>The em is an phrase tag and it makes the text <em>cursive</em>.<br></dd>
+			<dt><strong>About the head element</strong><br></dt>
+				<dd>The head element is a storage room for head elements like (title, style, base, link, meta, script and noscript)<br></dd>
+			<dt><strong>About the html element</strong><br></dt>
+				<dd>The html tag tells the browser that it is an HTML document, it represents the root of an HTML document and it is a container for all HTML elements<br></dd>
+			<dt><strong>About the strong element</strong><br></dt>
+				<dd>The strong tag is also a phrase tag like the em element but this time it makes the text <strong>fat</strong>.<br></dd>
+			<dt><strong>About the title element</strong><br></dt>
+				<dd>The title element changes the little tab name on the top of the screen. It has to be in the head container. It also provides a name in case the website is added to the favorites, and a name is displayed when somebody searches it.</dd>
+
+		</p>
+		<p>
+			<p>
+				<h2 style="border:2px solid dodgerblue">HTML</h2>
+			</p>
+			
+			<dt><strong>Identify void elements and how they are denoted</strong><br></dt>
+				<dd>Empty html elements are elements without a content(<em>br</em>)<br></dd>	
+			<dt><strong>Identify attributes</strong></dd>
+			<dd><li>All HTML elements can have attributes</li></dd>
+			<dd><li>Attributes provide additional information about an element </li></dd>
+			<dd><li>Attributes are always specified in the start tag </li></dd>
+			<dd><li>Attributes usually come in name/value pairs like: name="value"</li></dd>
+			<dt><strong>Write down the correct DOCTYPE declaration for html 5</strong> <br></dt>
+				<dd>< !DOCTYPE html	> <br></dd>
+			<dt><strong>Write down syntactically correct statements for the following elements</strong><br></dt>
+			<dt><li>Article</li></dt>
+				<dd>< article > < /article ></dd>
+			<dt><li>Body</li></dt>
+				<dd>< body > < /body ></dd>
+			<dt><li>Line break  < br ></li></dt>
+				<dd>< br >	</dd>	
+			<dt><li> Headings < h1 ></li></dt>
+				<dd>< h1 > < /h1 >There are headers between 1 and 6.</dd>
+			<dt><li> Link other pages < a ></li></dt>
+				<dd>< a  href= link> name of the link < /a ></dd>
+			<dt><li>Image < img ></li></dt>
+				<dd>< img src = url/path  alt = "description" width = "value" height = "value" border = "value"><br></dd>
+				<dd>There is not closing tag needed because it is a void element<br></dd>
+				<dd></dd>
+			<dt><li>Comment</li></dt>
+				<dd><xmp><!-- Description --></xmp></dd>
+			<dt><li> Head(head-, title-, metaelement) < h1 ></li></dt>
+				<dd>< head > < /head > The head element is a container for metadata.<br></dd>
+				<dd>Metadata is data about an html document and it is not displayed. <br></dd>
+				<dd>Examples for meta elements are title, sytle, meta, link, script and base  all of them are with an opening and closing tag<br></dd>
+				<dd>< title >< /title ><br></dd>
+		</p>
+		
+		<p>
+			<p>
+				<h2 style= "border:2px solid orange">Css</h2>
+			</p>
+
+			<dt><strong>Name the components of a css rule properly</strong> <br></dt>
+				<dd>The components of a css rule are for example selector(h1), declaration. The property(color) and value(blue) are part of the declaration.<br></dd>
+			<dt><strong>Use combinators properly: direct child, descendant, adjacent sibling, sibling</strong><br></dt>
+				<strong><li>descendant selector (space)</li></strong>
+					div p{ <br>	
+						All the (paragraphs) which are between the < div >< /div > will be written in the same form as the class<br>
+					} <br>
+				<strong><li>child selector (>)</li></strong>
+					div > p{ <br>
+						All the (paragraphs) which are between the < div >< /div > and have no other statements infront of them will be written in the same form as the class<br>
+					} <br>
+				<strong><li>adjacent sibling selector (+)</li></strong>
+					div + p{ <br>
+						After < div >< /div > the directly following statement will printed the same way as the class<br>
+					} <br>
+				<strong>><li>general sibling selector (~)</li></strong>
+					div ~ p{ <br>
+						All the (paragraphs) which are after the < div >< /div > and have no other statements infront of them will be written in the same form as the class<br>
+					} <br>
+			<dt><strong>Specify colors by color names and in notation</strong><br></dt>
+				<dd>rgb (255, 99, 71) or #ff634 is the same as tomato, but also just the name is enough<br></dd>
+			<dt><strong>Declarations for color, background color</strong><br></dt>
+				<dd><li style="color: orchid">The declaration for just the color of a word is < h1 style="color: (wishedcolor)"  >than the text < /h1 ></li> </dd>
+				<dd><li style="background-color: orchid">The declaration of the background is < h1 style="background-color: (wishedcolor)"  >than the text < /h1 > </li></dd>
+			<dt><strong>Pseudo classes for the < a > element</strong><br></dt>
+					<li>Style an element when a user mouses over it</li>
+						a:hover{ <br>
+							color:	tomtato;<br>
+						}<br> 
+						Must come after a:link and a:visited
+					<li>Style visited and unvisited links differently</li>
+						a:link{ <br>
+							color:	tomtato;<br>
+						}<br>  
+						a:visited{ <br>
+							color:	tomtato;<br>
+						}<br>  
+					<li>Style an element when it gets focus</li>
+						a:active{ <br>
+							color:	tomtato;<br>
+						}<br>  
+						Must be defined after a:hover. <br>
+			<dt><strong>Declaration for background image</strong><br></dt>
+				<dd>You are able to create a backgroundimage by saying for example <br>	 </dd>
+				body{ <br>
+				    background-image: url("yourlink");<br>
+				} <br>
+				<li>To repeat it horizontal/vertical use set background-repeat: repeat-x/y</li>
+			<dt><strong>Declaration for text alignment (left, right, center, justify)</strong><br></dt>
+				<dd>text-align: <br></dd>
+				The parameters are <br>	
+				<li class="left">left</li>
+				<li class="center">center</li>
+				<li class="right">right</li> 
+				<li>justify It stretches every lines so that every one has the same length</li>
+			<strong>Declaration for text decoration (overline, underline, line-through)</strong><br>
+				text-decoration:
+				<li>none</li>
+				<li class="overline">overline</li>
+				<li class="linethrough">line-through</li>
+				<li class="underline">underline</li>
+			<strong>Declaration for text transformation (uppercase, lowercase, capitalize)</strong><br>
+				text-transform:
+				<li class="uppercase">uppercase</li>
+				<li class="lowercase">lowercase</li>
+				<li class="capitalize">capitalize</li>
+			<strong>Identify the difference between serif and sans-serif fonts</strong><br>
+				Serif has small lines at the end of the letter but sans does mean without, so sans-serif does not have these small lines. <br>
+			<strong>Declarations for font families</strong><br>
+				font-family: "you have to use quotation marks if the font name is more than one word", other fontname, generic fontname; <br>
+				The reason why you have to use so many fontnames is that if the browser does not support on of these he can use a other one. <br>
+			<strong>Declarations for font style normal and italic</strong><br>
+				<li class="normal">font-style: normal;</li>
+			 	<li class="italic">font-style: italic;</li>
+			<strong>Declarations for font sizes</strong><br>
+				font-size: <br>
+				<li>The absolut size you can set by just giving the pixels. For example font-size: 40px</li>
+				<li>For the relative size you have to use em (1em = 16px). Also the user can change the size.</li>
+				<li>If you want to be sure that your font size works on all browsers you have to declar in the body the font-size with a percentage for example: font-size: 100%</li>
+			<strong>Declarations for font weights</strong><br>
+				The font weight defines the thicknes of a text. The statements are the following: <br>
+				font-weight: <br>
+				<li>normal</li>
+				<li class="bold">bold</li>
+				<li class="lighter">lighter</li>
+				<li class="weight">And you can also give a number: 900</li>
+		</p>
+		<p>
+			<p><h2 style= "border:2px solid rgb(50, 136, 185)">Box Model</h2></p>
+		</p>
+		<p>
+			<dt><strong>Block elements have which kind of characteristics?</strong></dt>
+			<dd>The CSS box model is essentially a box that wraps around every HTML element</dd>
+			<dt><strong>Inline elements have which kind of characteristics?</strong></dt>
+			<dd>Content - The content of the box, where text and images appear</dd>
+			<dd>Padding - Clears an area around the content. The padding is transparent</dd>
+			<dd>Border - A border that goes around the padding and content</dd>
+			<dd>Margin - Clears an area outside the border. The margin is transparent</dd>
+			<dt><strong>What is the margin of an Html element? Where can one find it?</strong></dt>
+			<dd>Clears an area outside the border. The margin is transparent</dd>
+			<dt><strong>What is the padding of an Html element? How does it differ from margin?</strong></dt>
+			<dd>Clears an area around the content. The padding is transparent</dd>
+		</p>
+		<p>
+			<p><h2 style= "border:2px solid rgb(50, 136, 185)">Class and ID</h2></p>
+		</p>
+		<p>
+			<dt><strong>Do classes select one or more elements?</strong></dt>
+			<dd>Yes they do</dd>
+			<dt><strong>Do ids select one or more elements?</strong></dt>
+			<dd>Yes you are abel to use them for one or more elements</dd>
+			<dt><strong>How often can classes / ids occur on one page?</strong></dt>
+			<dd>As often as they are needed. Classes are made that they can be used more than once</dd>
+			<dt><strong>Write down a selector for a certain class</strong></dt>
+			<dd> <xmp>.class class = "class"</xmp></dd>
+			<dt><strong>Write down a selector for a certain html element of a certain class</strong></dt>
+			<dd>p.class <xmp><p class = "class"></p></xmp></dd>
+			<dd>You can use more than one class if you make a space between them </dd>
+			<dt><strong>Write down a selector for a certain id</strong></dt>
+			<dd><xmp>#firstname <p id="firstname"></p></xmp></dd>
+			<dt><strong>Write down a selector for a certain html element of a certain id</strong></dt>
+			<dd></dd>
+			<dt><strong>Write down the start tag of a certain html element with a specific class.</strong></dt>
+			<dd> <xmp><p class = "class"></p></xmp></dd>
+			<dt><strong>Write down the start tag of a certain html element with a specific id.</strong></dt>
+			<dd><xmp> id="firstname"></p></xmp></dd>
+		</p>	
+	</p>
+  </body>
+</html>
